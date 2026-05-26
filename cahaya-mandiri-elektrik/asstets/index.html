@@ -64,18 +64,25 @@
       color: #38bdf8;
     }
 
-    .hero {
-      min-height: 90vh;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 60px 8%;
-      background: linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.8)),
-        url('./assets/images/Background-hvacR.webp') center/cover;
-      color: white;
-      gap: 40px;
-      flex-wrap: wrap;
-    }
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+
+  background:
+    linear-gradient(rgba(15,23,42,0.8), rgba(15,23,42,0.8)),
+    url('./assets/images/Background-hvacR.webp');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+  gap: 40px;
+  flex-wrap: wrap;
+}
 
     .hero-text {
       flex: 1;
